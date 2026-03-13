@@ -2,7 +2,6 @@
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
 
 # Virtual environment
 venv/
@@ -10,11 +9,8 @@ venv/
 # Database
 db.sqlite3
 
-# Node
-node_modules/
-
-# React build
-build/
+# Django logs
+*.log
 
 # Environment variables
 .env
